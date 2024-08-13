@@ -22,6 +22,10 @@ export class PageHeaderHarness extends ComponentHarness {
     return await this.locatorForOptional(`[aria-label="${ariaLabel}"]`)()
   }
 
+  async getElementByPTooltipText(pTooltipText: string) {
+    return await this.locatorForOptional(`[ng-reflect-content="${pTooltipText}"]`)()
+  }
+
   async getObjectInfos() {
     return await this.locatorForAll(ObjectDetailItemHarness)()
   }
