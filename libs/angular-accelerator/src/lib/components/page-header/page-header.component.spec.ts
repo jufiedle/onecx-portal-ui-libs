@@ -21,6 +21,7 @@ import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 const mockActions: Action[] = [
   {
     label: 'My Test Action',
+    title: 'My Test Action Tooltip',
     show: 'always',
     actionCallback: () => {
       console.log('My Test Action')
@@ -108,7 +109,7 @@ describe('PageHeaderComponent', () => {
     component.actions = mockActions
 
     expect(await pageHeaderHarness.getInlineActionButtons()).toHaveLength(1)
-    expect(await pageHeaderHarness.getElementByPTooltipText('My Test Action')).toBeTruthy()
+    expect(await pageHeaderHarness.getElementByPTooltipText('My Test Action Tooltip')).toBeTruthy()
     await (await pageHeaderHarness.getOverflowActionMenuButton())?.click()
     expect(await pageHeaderHarness.getOverFlowMenuItems()).toHaveLength(2)
     expect(await pageHeaderHarness.getElementByAriaLabel('More actions')).toBeTruthy()
