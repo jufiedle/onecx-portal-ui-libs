@@ -117,6 +117,18 @@ export class DiagramComponent implements OnInit, OnChanges {
       }),
     }
   }
+  genereateDiagramTitleDescription(data: DiagramData[]): string {
+    if (data) {
+      const inputData = data.map((diagramData) => diagramData.value)
+
+      const total = data.reduce((acc, current) => acc + current.value, 0)
+
+      const valueString = data.map((item) => `${item.label}:${item.value}`).join(', ')
+
+      return 'Chart: Total amount: ' + total + '. ' + valueString + '.'
+    }
+    return 'Chart with no data.'
+  }
 
   private diagramTypeToChartType(
     value: DiagramType

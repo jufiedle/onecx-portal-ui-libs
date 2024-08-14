@@ -6,9 +6,13 @@
         optionLabel="icon"
         (onChange)="onDiagramTypeChanged($event)"
         name="diagram-type-select-button"
+
       >
         <ng-template let-item pTemplate>
-          <i [class]="item.icon" [title]="item.title || (item.titleKey | translate)"></i>
+          <i [class]="item.icon"
+            [pTooltip]="item.title || (item.titleKey | translate)"
+            tooltipPosition="top"
+            tooltipEvent="hover"></i>
         </ng-template>
       </p-selectButton>
   </div>
@@ -20,6 +24,7 @@
       [responsive]="false"
       [options]="chartOptions"
       (onDataSelect)="dataClicked($event)"
+      ariaLabel="{{genereateDiagramTitleDescription(data)}}"
     ></p-chart>
   </div>
   <div class="w-full flex justify-content-center mt-2 sumKey">
