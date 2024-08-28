@@ -81,11 +81,7 @@ const demoActions: Action[] = [
       console.log(`you clicked 'Some action'`)
     },
     show: 'asOverflow',
-<<<<<<< HEAD
-    title: 'Tooltip for some action',
-=======
-    icon: PrimeIcons.ADDRESS_BOOK
->>>>>>> main
+    icon: PrimeIcons.ADDRESS_BOOK,
   },
   {
     label: 'Other action',
