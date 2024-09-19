@@ -1,3 +1,55 @@
+## [5.11.1](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.11.0...v5.11.1) (2024-09-17)
+
+### Bug Fixes
+
+* use different token for release ([#475](https://github.com/onecx/onecx-portal-ui-libs/issues/475)) ([5ba9cd8](https://github.com/onecx/onecx-portal-ui-libs/commit/5ba9cd88b7710c28b8455b323ca88fa4d2a90403))
+
+## [5.10.0](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.6...v5.10.0) (2024-09-06)
+
+### Features
+
+* add searchCriteriaNotEmptyValidator ([#441](https://github.com/onecx/onecx-portal-ui-libs/issues/441)) ([a2fc73e](https://github.com/onecx/onecx-portal-ui-libs/commit/a2fc73e60b3a12722df592b764161cedde3ba651))
+
+### Bug Fixes
+
+* add git committer name and email to release job ([#443](https://github.com/onecx/onecx-portal-ui-libs/issues/443)) ([66733b7](https://github.com/onecx/onecx-portal-ui-libs/commit/66733b77847113577c46aa6e7ef1c5805c9722e1))
+
+## [5.9.6](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.5...v5.9.6) (2024-09-06)
+
+### Bug Fixes
+
+* add git env variables for semantic release, delete merge nx pr workflow ([#442](https://github.com/onecx/onecx-portal-ui-libs/issues/442)) ([ce9d9f3](https://github.com/onecx/onecx-portal-ui-libs/commit/ce9d9f3e7e66f0ad1a2d8e5f9833f7c1293622aa))
+* ignore nx libs ([#440](https://github.com/onecx/onecx-portal-ui-libs/issues/440)) ([62fb1bf](https://github.com/onecx/onecx-portal-ui-libs/commit/62fb1bf7db7bd445371eaa0ce8efcbd372d84eca))
+
+### Chores
+
+* add workflow to auto merge dependabot angular PRs ([f91fa98](https://github.com/onecx/onecx-portal-ui-libs/commit/f91fa9804a7cb92f20056e6471e7a7723f1e20a6))
+* add workflow to rebase and merge nx PRs ([6d27695](https://github.com/onecx/onecx-portal-ui-libs/commit/6d2769517b3826ee3591280e519702af4d32a0d0))
+
+## [5.9.5](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.4...v5.9.5) (2024-09-03)
+
+### Bug Fixes
+
+* only show displayed columns in list grid sorting options ([#436](https://github.com/onecx/onecx-portal-ui-libs/issues/436)) ([33c0559](https://github.com/onecx/onecx-portal-ui-libs/commit/33c0559710856c145a9da0bac807f36a0de8ce6c))
+
+## [5.9.4](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.3...v5.9.4) (2024-08-30)
+
+### Bug Fixes
+
+* connectRouter fix ([#433](https://github.com/onecx/onecx-portal-ui-libs/issues/433)) ([06c2bdb](https://github.com/onecx/onecx-portal-ui-libs/commit/06c2bdb3047cc97716b21574ce64822972256f6b))
+
+## [5.9.3](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.2...v5.9.3) (2024-08-30)
+
+### Bug Fixes
+
+* fix change ngrx build output structure ([#432](https://github.com/onecx/onecx-portal-ui-libs/issues/432)) ([ab409fc](https://github.com/onecx/onecx-portal-ui-libs/commit/ab409fc4d017f3544985ba21564b777d91036dc4))
+
+## [5.9.2](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.1...v5.9.2) (2024-08-28)
+
+### Bug Fixes
+
+* connectRouter using fragment ([#428](https://github.com/onecx/onecx-portal-ui-libs/issues/428)) ([9e36673](https://github.com/onecx/onecx-portal-ui-libs/commit/9e366733613341e09e77a026d666afdac94985f8))
+
 ## [5.9.1](https://github.com/onecx/onecx-portal-ui-libs/compare/v5.9.0...v5.9.1) (2024-08-28)
 
 ### Bug Fixes
